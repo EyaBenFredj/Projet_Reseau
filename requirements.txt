@@ -1,4 +1,11 @@
-uvicorn~=0.34.0
-fastapi~=0.115.12
-pydantic~=2.11.2
+fastapi
+uvicorn
+pydantic
+scikit-learn
+pandas
+numpy
+joblib
 httpx
+pytest
+numpy
+pandas
