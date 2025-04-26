@@ -62,11 +62,12 @@ Développé avec :
 
 ### 📄 Mode Upload CSV
 ![image](https://github.com/user-attachments/assets/92c1e5b2-862f-4d3e-af9c-8e57a8fbad13)
+![image](https://github.com/user-attachments/assets/b1aebac2-b7c1-486e-b150-d640b90bad93)
 
 ---
 
 ### 📥 Résultats Téléchargeables
-![Résultats Screenshot](https://via.placeholder.com/800x500.png?text=R%C3%A9sultats+Pr%C3%A9dits)
+![image](https://github.com/user-attachments/assets/25d73db5-9be4-4bda-828a-7e9c00c8d20c)
 
 ---
 
