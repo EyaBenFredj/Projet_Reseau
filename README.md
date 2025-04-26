@@ -1,6 +1,5 @@
 # 🌐 MultiSync AI - Assistant de Synchronisation Réseau
 
-![MultiSync AI Banner](https://via.placeholder.com/1200x400.png?text=MultiSync+AI)
 
 ---
 > 🚀 Un assistant intelligent pour prédire automatiquement la meilleure stratégie de synchronisation réseau selon votre bande passante, latence et utilisation du réseau.
@@ -57,12 +56,12 @@ Développé avec :
 # 🖥️ Aperçu de l'interface
 
 ### 🎯 Mode Entrée Manuelle
-![Entrée Manuelle Screenshot](https://via.placeholder.com/800x500.png?text=Entr%C3%A9e+Manuelle)
+![image](https://github.com/user-attachments/assets/67534af2-775e-4ea3-9cc9-7c337452ebc4)
 
 ---
 
 ### 📄 Mode Upload CSV
-![Upload CSV Screenshot](https://via.placeholder.com/800x500.png?text=Upload+CSV+Mode)
+![image](https://github.com/user-attachments/assets/92c1e5b2-862f-4d3e-af9c-8e57a8fbad13)
 
 ---
 
@@ -76,5 +75,5 @@ Développé avec :
 1️⃣ Clonez le dépôt :
 
 ```bash
-git clone https://github.com/votre-utilisateur/multisync-ai.git
-cd multisync-ai
+git clone https://github.com/EyaBenFredj/Projet_Reseau.git
+cd Projet_Reseau
