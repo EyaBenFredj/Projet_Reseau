@@ -9,3 +9,9 @@ httpx
 pytest
 numpy
 pandas
+fastapi
+uvicorn
+pydantic
+joblib
+streamlit
+requests

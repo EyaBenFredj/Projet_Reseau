@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from app.models import model_inference
-
+from app.models.model_inference import predict_strategy
 app = FastAPI(title="Plateforme de Synchronisation IA avec modèle ML")
 
 # Modèle de données pour l'endpoint IA
@@ -25,6 +25,15 @@ async def recommend_strategy_ia(network_data: NetworkData):
         raise HTTPException(status_code=500, detail=str(e))
     return {"recommendation": recommendation}
 
-@app.get("/")
-def root():
-    return {"message": "Bienvenue sur l'API de synchronisation IA avec intégration de modèle ML!"}
+
+@app.post("/recommend-ia")
+async def recommend_strategy_ia(network_data: NetworkData):
+    try:
+        recommendation = predict_strategy(
+            network_data.bandwidth,
+            network_data.usage,
+            network_data.latency
+        )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    return {"recommendation": recommendation}
