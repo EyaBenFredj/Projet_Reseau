@@ -27,7 +27,6 @@ run_script(train_model_script)
 # Petite pause pour la lisibilité
 time.sleep(1)
 
-
 # Étape 3 : Lancer Streamlit (ne pas capturer output ici pour voir l'interface)
 streamlit_app_script = "streamlit_app.py"
 print("🌐 Lancement de l'application Streamlit...")
