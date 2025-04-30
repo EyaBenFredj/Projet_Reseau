@@ -70,6 +70,8 @@ Développé avec :
 ![image](https://github.com/user-attachments/assets/25d73db5-9be4-4bda-828a-7e9c00c8d20c)
 
 ---
+Running the Pipeline : 
+![image](https://github.com/user-attachments/assets/4d6fb83c-724d-442b-bf12-74100e8537dd)
 
 # ⚙️ Installation Locale
 
