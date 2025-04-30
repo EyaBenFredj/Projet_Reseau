@@ -6,7 +6,8 @@ import os
 MODEL_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "..", "model", "model.pkl")
 SCALER_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "..", "model", "scaler.pkl")
 
-# Charger le modèle et le scaler au démarrage
+# Charg
+# er le modèle et le scaler au démarrage
 try:
     model = joblib.load(MODEL_PATH)
     scaler = joblib.load(SCALER_PATH)
